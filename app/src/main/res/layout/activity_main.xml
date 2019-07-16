@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCustomDialog1"
+        android:onClick="moCustomDialogCach1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mở CustomDialog cách 1" />
+
+    <Button
+        android:id="@+id/btnCustomDialog2"
+        android:onClick="moCustomDialogCach2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCustomDialog1"
+        android:layout_marginTop="285dp"
+        android:text="Mở CustomDialog Cách 2" />
+</RelativeLayout>
